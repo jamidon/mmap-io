@@ -1,1 +1,1 @@
-module.exports = require("./build/es-release/mmap-io")
+module.exports = require("./build/Release/mmap-io")
