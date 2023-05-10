@@ -9,7 +9,7 @@
     },
     "binary": {
         "module_name": "mmap_io",
-        "module_path": "./build/binding/{configuration}/{node_abi}-{platform}-{arch}/",
+        "module_path": "./build/binding/{configuration}/",
         "remote_path": "./v{version}/",
         "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz",
         "host": "https://github.com/Widdershin/mmap-io/releases/download/"
