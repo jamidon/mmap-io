@@ -63,16 +63,15 @@
         "watch": "while true; do (npm run build; inotifywait -qre close_write,moved_to --exclude '\\.git' ./src/; ) done;"
     },
     "devDependencies": {
-        "@types/node": "^11.10.5",
-        "livescript": "^1.6.0",
+        "@types/node": "^20.12.7",
         "node-pre-gyp-github": "^1.4.4",
-        "typescript": "^3.5.3"
+        "typescript": "^5.4.5"
     },
     "dependencies": {
-        "@mapbox/node-pre-gyp": "^1.0.9",
+        "@mapbox/node-pre-gyp": "*",
         "errno": "*",
-        "nan": "^2.16.0",
-        "node-gyp": "^9.0.0",
-        "run-script-os": "^1.1.1"
+        "nan": "*",
+        "node-gyp": "*",
+        "run-script-os": "*"
     }
 }
